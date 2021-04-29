@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+     
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem vindo</h1>
+    <p>
+        Hoje é dia @Html.Label(@DateTime.Now.ToShortDateString(), null, new { @class = "css-class" })
+    </p>
+    <div>
+        <button>Acessar Estação</button>
+    </div>
+    
+</div>
